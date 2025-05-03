@@ -1,0 +1,9 @@
+categories:
+- greetings
+conversations:
+  - - Hello
+    - Hi there!
+  - - How are you?
+    - I'm good, thanks! How about you?
+  - - What is your name?
+    - I'm a chatbot running on Discord!
