@@ -45,7 +45,7 @@ Live Training Command: I created a !train command that allows the bot to be retr
 Real-Time Testing and Feedback: After deploying the bot to a live server, I gathered feedback from users, which helped me fine-tune its responses and improve its performance.
 
 6. Deployment
-Hosting: Initially, I ran the bot on my local machine for testing, but I’ve planned to deploy it on a platform like Heroku or AWS for 24/7 availability in the future.
+Hosting: Initially, I ran the bot on my local machine for testing
 
 Discord Server: I deployed the bot on a Discord server where users could interact with it in real-time. This allowed me to evaluate how it performed under real-world conditions and collect useful feedback.
 
@@ -62,4 +62,5 @@ Database for Persistent Storage: If I wanted the bot to store information over t
 This project was a great learning experience in both chatbot development and Discord integration.The bot is functional and has a solid foundation, with basic features like real-time conversation, fallback responses, and custom training.
 While there are still improvements to be made, such as handling more complex conversations and adding richer interactions, the bot is already useful for simple tasks like answering queries and performing commands.
 
-Looking ahead, I’m excited about the potential to enhance the bot further, whether through more advanced training, richer media, or smarter conversation handling. This project has given me a solid foundation in chatbot development, and I’m looking forward to seeing how it evolves!
+Looking ahead, I’m excited about the potential to enhance the bot further, whether through more advanced training, richer media, or smarter conversation handling.
+This project has given me a solid foundation in chatbot development, and I’m looking forward to seeing how it evolves!
