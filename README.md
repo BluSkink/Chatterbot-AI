@@ -1,27 +1,38 @@
-# Chatterbot-AI
+# Discord Chatbot with ChatterBot
 
-
-# AI-Powered Discord Chatbot
-
-This is a Python-based AI chatbot that interacts with users on a Discord server in real time. It uses the [ChatterBot](https://github.com/gunthercox/ChatterBot) library for conversational AI and [discord.py](https://github.com/Rapptz/discord.py) to connect with Discord. The project demonstrates how to integrate artificial intelligence with real-world communication tools.
+This project is a Python-based chatbot that interacts with users on a **Discord server** using **ChatterBot** for AI-driven conversations. It was built to demonstrate real-time chatbot integration in a real-world environment with custom training and performance tracking.
 
 ---
 
 ## Features
 
-- Real-time conversations in a Discord server
-- Pre-trained and custom conversational AI using ChatterBot
-- Customizable command responses
-- Modular and clean Python codebase
-- Logs user interactions (optional for improvement)
+- Real-time responses on Discord
+- Custom conversational training via YAML
+- Command support: `!info`, `!train`
+- Fallback handling for unclear inputs
+- Logging of low-confidence responses
 
----
 
-## Tech Stack
+Setup Instructions
 
-- **Python 3.8 to 3.10**
-- **ChatterBot**
-- **discord.py**
-- **YAML** for custom corpus files
+**Clone the Repository**
 
+```cmd
+git clone https://github.com/your-username/discord-chatbot.git
+cd discord-chatbot
+Install Dependencies
+
+cmd
 pip install -r requirements.txt
+
+Configure the Bot
+
+Create a config.py file in the bot/ folder with your bot token:
+
+python
+TOKEN = "your-discord-bot-token"
+PREFIX = "!"
+Run the Bot
+
+cmd
+python bot/main.py
